@@ -13,4 +13,13 @@ $api->config($username, $password);
 echo "Trying an API Call \n";
 echo $api->invoke("Company.GetTokenCount",array("company"=>"Justin Grover"));
 echo "\n";
+
+/** 
+* Function to convert the API output to CSV
+*/ 
+function convertToCSV($JSON)
+{
+
+}
+
 ?>
